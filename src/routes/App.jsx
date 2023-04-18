@@ -19,17 +19,17 @@ const App = () => {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/login" component={<Login />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/recovery-password" element={<RecoveryPassword />} />
-          <Route path="/send-email" component={<SendEmail />} />
+          <Route path="/send-email" element={<SendEmail />} />
           <Route
             path="/create-a-new-password"
             element={<CreateANewPassword />}
           />
-          <Route path="/account" component={<MyAccount />} />
-          <Route path="/signin" component={<CreateAccount />} />
-          <Route path="/checkout" component={<Checkout />} />
-          <Route path="/orders" component={<Orders />} />
+          <Route path="/account" element={<MyAccount />} />
+          <Route path="/signin" element={<CreateAccount />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/orders" element={<Orders />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

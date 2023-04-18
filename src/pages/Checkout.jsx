@@ -1,4 +1,5 @@
 import React from "react";
+import OrderItem from "../components/OrderItem";
 import "../styles/Checkout.scss"
 
 const Checkout = () => {
@@ -14,36 +15,7 @@ const Checkout = () => {
             </p>
             <p>$560.00</p>
           </div>
-          <div className="shopping-cart">
-            <figure>
-              <img
-                src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Bike"
-              />
-            </figure>
-            <p>Bike</p>
-            <p>$340,00</p>
-          </div>
-          <div className="shopping-cart">
-            <figure>
-              <img
-                src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Bike"
-              />
-            </figure>
-            <p>Bike</p>
-            <p>$340,00</p>
-          </div>
-          <div className="shopping-cart">
-            <figure>
-              <img
-                src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Bike"
-              />
-            </figure>
-            <p>Bike</p>
-            <p>$340,00</p>
-          </div>
+          <OrderItem />
         </div>
       </div>
     </div>
